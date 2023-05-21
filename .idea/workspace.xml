@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb465073-5cd0-48cf-8337-8e53dc4b266c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bridgelabz/UserRegistrationUsingLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationUsingLambdaTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="eb465073-5cd0-48cf-8337-8e53dc4b266c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserRegistrationUsingLambdaTest.givenLastnameshouldreturnTrue">
+  <component name="RunManager" selected="JUnit.UserRegistrationUsingLambdaTest.GivenEmailShouldReturnTrue">
     <configuration name="UserRegistrationUsingLambdaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistrationDay23" />
       <extension name="coverage">
@@ -58,6 +54,22 @@
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationUsingLambdaTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationUsingLambdaTest.GivenEmailShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationDay23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationUsingLambdaTest" />
+      <option name="METHOD_NAME" value="GivenEmailShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRegistrationUsingLambdaTest.GivenEmailShouldReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationUsingLambdaTest.givenLastnameshouldreturnTrue" />
         <item itemvalue="JUnit.UserRegistrationUsingLambdaTest.givenFirstnameshouldreturnTrue" />
         <item itemvalue="JUnit.UserRegistrationUsingLambdaTest" />
