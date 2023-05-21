@@ -31,9 +31,18 @@ public class UserRegistrationUsingLambda {
             return false;
     }
 
-    public boolean validatePhoneNumber(String Phone){
+    public boolean validatePhoneNumber(String Phone) {
         Pattern pattern = Pattern.compile("^[0-9]{2,}[0-9]{10,}$");
         Matcher matcher = pattern.matcher(Phone);
+        if (matcher.matches())
+            return true;
+        else
+            return false;
+    }
+
+    public boolean ValidatePassword(String password) {
+        Pattern pattern = Pattern.compile("^[A-Za-z]{8,}$");
+        Matcher matcher = pattern.matcher(password);
         if (matcher.matches())
             return true;
         else

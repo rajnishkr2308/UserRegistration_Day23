@@ -39,4 +39,11 @@ public class UserRegistrationUsingLambdaTest {
         Assertions.assertTrue(phonenumber);
         System.out.println("Phonenumber Checked");
     }
+
+    @Test
+    void GivenPasswordShouldWrittenTrue() {
+        boolean password = userRegistration.ValidatePassword("Rajnishr");
+        Assertions.assertTrue(password);
+        System.out.println("Password Checked");
+    }
 }
