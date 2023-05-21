@@ -32,4 +32,11 @@ public class UserRegistrationUsingLambdaTest {
         System.out.println("Email Checked");
 
     }
+
+    @Test
+    void GivenPhoneNUmberShouldReturnTrue() {
+        boolean phonenumber = userRegistration.validatePhoneNumber("917541061533");
+        Assertions.assertTrue(phonenumber);
+        System.out.println("Phonenumber Checked");
+    }
 }
